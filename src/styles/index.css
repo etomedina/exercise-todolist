@@ -1,12 +1,93 @@
+#app {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
 
-/* 
+.Title {
+    display: flex;
+    justify-content: center;
+    font-style:normal ;
+    font-weight: 50 ;
+    font-size: 500%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: brown;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.ShadowList {
+    box-shadow: 0px 1px 6px -1px black;
+}
 
-*/
+.list-element {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.lista {
+    box-shadow: 0px 1px 6px -1px black;
+    width: 500px;
+}
+
+.close-item {
+visibility: visible;
+color: gray;
+}
+
+.InputTask {
+    border: hidden;
+}
+
+/* .InputTask:hover span{
+    visibility: visible;
+    color: gray;
+} */
+
+.listatop {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom-page-1{
+    width: 98%;
+    background-color: #eeeeee;
+    height: 5px;
+    border-bottom: 1px solid #ddd;
+}
+
+.bottom-page-2{
+    width: 96%;
+    background-color: #eeeeee;
+    height: 5px;
+    border-bottom: 1px solid #ddd;
+}
+
+.counter{
+    font-family: 'Montserrat', sans-serif;
+    color:rgb(133, 133, 133) ;
+    font-size: small;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    background-color: #eeeeee;
+    border: 1px solid #ddd;
+    padding: 5px;
+    padding-left: 10px;
+    margin-top: -1px;}
+
+    .close {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        right: 0%;
+        padding: 12px 16px;
+        transform: translate(0%, -50%);
+    }
+    
+    span { 
+        visibility: hidden; 
+    }
+    
+    li:hover span {
+        visibility: visible;
+    }
